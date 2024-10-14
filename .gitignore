@@ -1,0 +1,33 @@
+# node_modules klasörünü hariç tutar
+node_modules/
+
+# Derlenmiş üretim klasörü (build)
+build/
+
+# .env dosyaları (güvenlik ve gizlilik için)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log dosyaları
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE ve Editor klasörleri
+.vscode/
+.idea/
+
+# MacOS için oluşturulan sistem dosyaları
+.DS_Store
+
+# Windows için oluşturulan sistem dosyaları
+Thumbs.db
+ehthumbs.db
+
+# Temporary files
+*.log
+*.tmp
+*.lock
